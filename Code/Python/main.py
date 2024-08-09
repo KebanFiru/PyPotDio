@@ -14,7 +14,8 @@ def main_func():
         arduino.open()
         arduino.readline()
         while arduino:
-            value = arduino.readline().decode('utf-8')          
+            value = arduino.readline().decode('utf-8')  
+            print(value)      
             try:
                 if value not in voice_level:
                     voice_level.append(int(value.strip()))
@@ -29,4 +30,5 @@ def main_func():
             except:
                 pass
     except:
-        pass
+        print("An error occured")
+main_func()
