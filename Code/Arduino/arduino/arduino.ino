@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   int data = analogRead(A3); //This is the pin connect to middle terminal of pot
-  int newData = map(data, 0,1020,0,100); 
+  int newData = map(data, 0,1020,0,50); 
  for (int i = 0; i < 3; i++) {
      mainData[i] = newData;
      if (i == 3) {
