@@ -22,3 +22,16 @@ For installing "pyserial" library write that code into CMD.
 pip install pyserial
 ```
 That will install last version of pynput
+
+| Items         | 
+| ------------- |
+| An Arduino board(I used UNO R3) capable of serial communication  | 
+| Male to Male jumper wires(Minimum 3)| 
+| A Breadboard to prototype easy    | 
+| A potantiometer| 
+
+Circuit is shown below(Made by Tinkercad)
+
+![alt text](Circuit.png)
+
+You can plug middle terminal of pot into any anolog (A0,A1 etc.) pin you want. 

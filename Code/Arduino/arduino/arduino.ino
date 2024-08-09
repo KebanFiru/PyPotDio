@@ -3,7 +3,7 @@ void setup() {
 }
 
 void loop() {
-  int data = analogRead(A3);
-  int newData = map(data, 0,1023,0,100);
+  int data = analogRead(A3); //This is the pin connect to middle terminal of pot
+  int newData = map(data, 0,1023,0,100); 
   Serial.println(newData);
 }
