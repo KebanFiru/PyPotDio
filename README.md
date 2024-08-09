@@ -30,8 +30,9 @@ That will install last version of pynput
 | A Breadboard to prototype easy    | 
 | A potantiometer| 
 
+You can plug middle terminal of pot into any anolog (A0,A1 etc.) pin you want. 
+
 Circuit is shown below(Made by Tinkercad)
 
 ![alt text](Circuit.png)
 
-You can plug middle terminal of pot into any anolog (A0,A1 etc.) pin you want. 
